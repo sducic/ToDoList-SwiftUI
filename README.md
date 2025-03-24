@@ -1,1 +1,1 @@
-ToDoList SwiftUI Demo App
+SwiftUI Demo App
