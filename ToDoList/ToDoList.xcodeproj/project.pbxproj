@@ -29,6 +29,7 @@
 		9334D2C72D92DFA000600CF8 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2C62D92DFA000600CF8 /* LoginViewViewModel.swift */; };
 		9334D2C92D92DFAC00600CF8 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2C82D92DFAC00600CF8 /* RegisterViewViewModel.swift */; };
 		9334D2CB2D92DFB800600CF8 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2CA2D92DFB800600CF8 /* ToDoListItemViewViewModel.swift */; };
+		9334D2CD2D943DC000600CF8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2CC2D943DC000600CF8 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		9334D2C62D92DFA000600CF8 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		9334D2C82D92DFAC00600CF8 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		9334D2CA2D92DFB800600CF8 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		9334D2CC2D943DC000600CF8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		93DD63ED2D91AE55001274F3 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,7 +84,6 @@
 			children = (
 				9334D29D2D91D74000600CF8 /* Assets.xcassets */,
 				9334D29E2D91D74000600CF8 /* GoogleService-Info.plist */,
-				9334D29F2D91D74000600CF8 /* ToDoListApp.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -119,6 +120,7 @@
 				9334D2A42D91D74000600CF8 /* LoginView.swift */,
 				9334D2A82D91D74000600CF8 /* RegisterView.swift */,
 				9334D2AA2D91D74000600CF8 /* ToDoListItemView.swift */,
+				9334D2CC2D943DC000600CF8 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,6 +128,7 @@
 		9334D2AC2D91D74000600CF8 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				9334D29F2D91D74000600CF8 /* ToDoListApp.swift */,
 				9334D29C2D91D74000600CF8 /* Models */,
 				9334D2A22D91D74000600CF8 /* Preview Content */,
 				9334D2A32D91D74000600CF8 /* ViewModels */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9334D2AD2D91D74000600CF8 /* ToDoListApp.swift in Sources */,
+				9334D2CD2D943DC000600CF8 /* HeaderView.swift in Sources */,
 				9334D2AE2D91D74000600CF8 /* LoginView.swift in Sources */,
 				9334D2C92D92DFAC00600CF8 /* RegisterViewViewModel.swift in Sources */,
 				9334D2BF2D92DF3D00600CF8 /* MainViewViewModel.swift in Sources */,
