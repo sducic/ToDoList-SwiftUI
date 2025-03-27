@@ -10,43 +10,45 @@ import SwiftUI
 struct LoginView: View {
     
     @State var email = ""
-    @State var pass = ""
+    @State var password = ""
     
     var body: some View {
-        VStack {
-            //header
-            HeaderView()
-            
-            //login form
-            Form {
-                TextField("Email Adress" , text: $email )
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                SecureField("Password", text: $pass)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    
-                Button  {
-                    
-                } label: {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(Color.blue)
-                        Text("Log In")
-                            .foregroundColor(Color.white)
-                            .bold()
+        NavigationView  {
+            VStack {
+                //header
+                HeaderView()
+                
+                //login form
+                Form {
+                    TextField("Email Adress" , text: $email )
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    SecureField("Password", text: $password)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                        
+                    Button  {
+                        
+                    } label: {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 10)
+                                .foregroundColor(Color.blue)
+                            Text("Log In")
+                                .foregroundColor(Color.white)
+                                .bold()
+                        }
                     }
                 }
-            }
-            
-            VStack {
-                Text("New around here")
-                Button("Create An Account") {
-                    //show registration
+                
+                VStack {
+                    Text("New around here")
+                    Button("Create An Account") {
+                        //show registration
+                    }
                 }
+                .padding(.bottom,50)
+                
+                
+                Spacer()
             }
-            .padding(.bottom,50)
-            
-            
-            Spacer()
         }
     }
 }
