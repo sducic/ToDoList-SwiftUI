@@ -30,6 +30,7 @@
 		9334D2C92D92DFAC00600CF8 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2C82D92DFAC00600CF8 /* RegisterViewViewModel.swift */; };
 		9334D2CB2D92DFB800600CF8 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2CA2D92DFB800600CF8 /* ToDoListItemViewViewModel.swift */; };
 		9334D2CD2D943DC000600CF8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D2CC2D943DC000600CF8 /* HeaderView.swift */; };
+		936E807C2D9AD5680031535C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E807B2D9AD5680031535C /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		9334D2C82D92DFAC00600CF8 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		9334D2CA2D92DFB800600CF8 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		9334D2CC2D943DC000600CF8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		936E807B2D9AD5680031535C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		93DD63ED2D91AE55001274F3 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				9334D2A82D91D74000600CF8 /* RegisterView.swift */,
 				9334D2AA2D91D74000600CF8 /* ToDoListItemView.swift */,
 				9334D2CC2D943DC000600CF8 /* HeaderView.swift */,
+				936E807B2D9AD5680031535C /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				9334D2BF2D92DF3D00600CF8 /* MainViewViewModel.swift in Sources */,
 				9334D2AF2D91D74000600CF8 /* MainView.swift in Sources */,
 				9334D2B02D91D74000600CF8 /* NewItemView.swift in Sources */,
+				936E807C2D9AD5680031535C /* CustomButton.swift in Sources */,
 				9334D2C12D92DF6E00600CF8 /* ProfileViewViewModel.swift in Sources */,
 				9334D2B12D91D74000600CF8 /* ProfileView.swift in Sources */,
 				9334D2BB2D92DF0000600CF8 /* User.swift in Sources */,

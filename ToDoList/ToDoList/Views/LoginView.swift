@@ -22,19 +22,15 @@ struct LoginView: View {
                 Form {
                     TextField("Email Adress" , text: $email )
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(.none)
+                    
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                         
-                    Button  {
-                        
-                    } label: {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color.blue)
-                            Text("Log In")
-                                .foregroundColor(Color.white)
-                                .bold()
-                        }
+                    //button
+                    CustomButton(title: "Log In", bgdColor: .blue)
+                    {
+                        //
                     }
                 }
                 
